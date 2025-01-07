@@ -1,7 +1,3 @@
-Aqui está o README atualizado com a hierarquia de pastas correta e com mais elementos visuais:
-
----
-
 # 🛒 Lista de Compras JS  
 
 Uma aplicação web prática e moderna para gerenciar sua lista de compras!  
@@ -68,7 +64,3 @@ Crie, edite e organize seus itens com facilidade.
 ## 📜 Licença  
 
 Este projeto está licenciado sob a Licença MIT.  
-
---- 
-
-Espero que goste! Caso precise de mais personalizações, é só avisar! 😊
