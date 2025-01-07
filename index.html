@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Compras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Numans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=delete" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+
+    <main>
+      <img src="./img/bag.png" alt="sacola de compras" width="50%"/>
+      <form>
+        <input
+          class="input-item"
+          id="input-item"
+          type="text"
+          placeholder="Digite o item que deseja adicionar"
+        />
+        <input
+          class="input-item item-price"
+          id="item-price"
+          type="number"
+          placeholder="R$"
+        />
+        <button class="button-item" id="adicionar-item" type="button">Salvar item</button>
+      </form>
+
+      <div class="container-lista">
+        <h2>Lista de compras</h2>
+        <hr />
+
+        <ul id="lista-de-compras">
+          
+        </ul>
+        <p id="mensagem-lista-vazia" class="mensagem-lista-vazia">Sua lista está vazia!</p>
+        <br>
+        <hr class="hr-total" />
+        <div class="container-total">
+          <h2>Total:</h2>
+          <h2 class="total-value">R$ 0.00</h2>
+        </div>
+      </div>
+      <button class="button-item" id="clear-item" type="button" disabled>
+        <span class="material-symbols-outlined">
+          delete
+          </span>
+      </button>
+    </main>
+    <!-- Scripts -->
+    <script type="module" src="js/app.js"></script>
+</body>
+  </body>
+</html>
